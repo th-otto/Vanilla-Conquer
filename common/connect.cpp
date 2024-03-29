@@ -227,8 +227,6 @@ int ConnectionClass::Send_Packet(void* buf, int buflen, int ack_req)
 
     SwapCommHeaderType((CommHeaderType*)PacketBuf);
 
-    SwapCommHeaderType((CommHeaderType*)PacketBuf);
-
     /*------------------------------------------------------------------------
     Now build the packet
     ------------------------------------------------------------------------*/
